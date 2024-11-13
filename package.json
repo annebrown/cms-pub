@@ -1,9 +1,9 @@
 {
-  "name": "nuxt-app",
+  "name": "cms-pub",
   "private": true,
   "scripts": {
     "build": "nuxt build",
-    "dev": "nuxt dev",
+    "dev": "nuxt dev --host 192.168.4.21 --port 2223",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
@@ -11,7 +11,7 @@
   "devDependencies": {
     "@nuxt/content": "^2.8.2",
     "@types/node": "^18",
-    "nuxt": "^3.7.1",
+    "nuxt": "^3.14.159",
     "sass": "^1.62.1",
     "sass-loader": "^13.3.0",
     "webpack": "^5.84.0"

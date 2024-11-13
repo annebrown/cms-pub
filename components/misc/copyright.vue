@@ -1,6 +1,6 @@
 <template>
 	<div id="copyright">
-		build by: &copy; Sailsnake <span>| {{ currentYear }}</span>
+		/Copyright &copy; Anne Brown <span>| {{ currentYear }}</span>
 	</div>
 </template>
 

@@ -1,14 +1,6 @@
 <template>
 	<footer>
-		<div
-			id="__by-sailsnake"
-		>
-			<p>build by:</p>
-			<a href="http://www.sailsnake.com" target="_blank" aria-label="link to www.sailsnake.com">
-				<img src="/images/logos/Sailsnake-logo--footer.png" width="941" height="408" alt="Sailsnake creative studio - logo "/>
-			</a
-			>
-		</div>
+		
 	</footer>
 </template>
 

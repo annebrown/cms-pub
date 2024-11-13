@@ -7,7 +7,7 @@ export default defineNuxtConfig({
 			},
 			charset: "utf-8",
 			viewport: "width=device-width, initial-scale=1",
-			title: "Nuxt & Decap CMS boilerplate",
+			title: "cms-pub",
 		},
 	},
 	modules: ["@nuxt/content"],

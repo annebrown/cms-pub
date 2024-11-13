@@ -3,23 +3,24 @@
 		id="header__logo"
 		class="company-logo"
 	>
-		<NuxtLink to="https://nuxt.com" target="_blank">
+    <NuxtLink to="https://annebrown.ca" target="_blank">
 			<img
-				src="/images/logos/nuxt-logo.svg"
+				src="/images/logos/book.svg"
 				alt="logo"
-				width="800"
-				height="200"
+				width="300"
+				height="300"
+			/>
+		</NuxtLink>	
+    <NuxtLink to="https://misscommunication.ca" target="_blank">
+			<img
+				src="/images/logos/logo.svg"
+				alt="logo"
+				width="300"
+				height="300"
 			/>
 		</NuxtLink>
-		<NuxtLink to="https://decapcms.org" target="_blank">
-			<img
-				src="/images/logos/decap-logo.svg"
-				alt="logo"
-				width="104"
-				height="30"
-			/>
-		</NuxtLink>
-		<span>Boilerplate</span>
+       
+		<span>cms.misscommunication.ca</span>
 	</div>
 </template>
 
@@ -42,6 +43,7 @@
 			font-size: 0.8em;
 			right: 1em;
 			bottom: 0;
+            width: max-content;
 			transform: translateX(5%);
 			font-style: italic;
 			font-family: $font-art;

@@ -6,6 +6,11 @@
 </template>
 
 <script setup>
+useHead({
+  script: [
+    { src: "https://identity.netlify.com/v1/netlify-identity-widget.js" },
+  ],
+});
 
 const { data: home } = reactive(await useAsyncData("home", () =>
 	queryContent("/pages/home").findOne())
