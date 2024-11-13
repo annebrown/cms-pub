@@ -23,7 +23,7 @@ $max-breakpoints: (
 //  mixin to print out media queries (based on map keys passed) 
 @mixin media($keys...) {
     @each $key in $keys {
-        @media (min-width: map-get($min-breakpoints, $key)) and (max-width: map-get($max-breakpoints, $key)) {
+        @media (min-width: map.get($min-breakpoints, $key)) and (map.get($max-breakpoints, $key)) {
             @content;
         }
     }
