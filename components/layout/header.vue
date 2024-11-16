@@ -21,14 +21,14 @@
 		top: 100%;
 		background-image: linear-gradient(90deg, $base-color, $secondary-color);
 	}
-	@include media(xsm) {
-		display: block;
-		padding: $spacing1 0;
+	// @include media(xsm) {
+	// 	display: block;
+	// 	padding: $spacing1 0;
 
-		#locale-toggle {
-			display: none;
-		}
-	}
+	// 	#locale-toggle {
+	// 		display: none;
+	// 	}
+	// }
 }
 
 #header__logo {

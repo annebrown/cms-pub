@@ -20,14 +20,14 @@ $max-breakpoints: (
 	xlg: 20000px
 );
 
-//  mixin to print out media queries (based on map keys passed) 
-@mixin media($keys...) {
-    @each $key in $keys {
-        @media (min-width: map.get($min-breakpoints, $key)) and (map.get($max-breakpoints, $key)) {
-            @content;
-        }
-    }
-}
+// //  mixin to print out media queries (based on map keys passed) 
+// @mixin media($keys...) {
+//     @each $key in $keys {
+//         @media (min-width: map.get($min-breakpoints, $key)) and (map.get($max-breakpoints, $key)) {
+//             @content;
+//         }
+//     }
+// }
 
 /* HOVER ONYL STYLES; i.e. NOT on touchpads 
     USE: @hover {

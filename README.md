@@ -1,14 +1,13 @@
-# Nuxt3 - Decap CMS boilerplate
+ try {
+        const data = { email: this.email, password: this.password }
+        await this.$auth.loginWith('local', { data:data})
+        .then(() => this.$router.push('/profile'))
+      } catch (e) {
 
 
-**Live boilerplate example:** https://sailsnake-nuxt-decap-boilerplate.netlify.app
+## Base Boilerplate
 
-
-**Link to repo:** https://github.com/Sfolkerts89/Nuxt3-starter__Decap-cms
-
-## A simple starting point
-
-This boilerplate will get you going quick in building with Nuxt and Decap CMS. The base boilerplate consists out of the following:
+The base boilerplate consists out of the following:
 
 ### Decap CMS (config.yml)
 

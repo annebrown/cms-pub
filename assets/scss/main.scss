@@ -13,10 +13,10 @@ html {
 	margin: 0;
 	font-size: 15px; // 11pt
 	font-family: $font-main;
-	// responsive upscaling for resolutions > 1920px
-	@include media(xlg) {
-		font-size: clamp(15px, 0rem + 0.7813vw, 30px);
-	}
+	// // responsive upscaling for resolutions > 1920px
+	// @include media(xlg) {
+	// 	font-size: clamp(15px, 0rem + 0.7813vw, 30px);
+	// }
 }
 
 // SCROLLBAR 
@@ -72,9 +72,7 @@ body * {
 		main {
 			min-height: 100%;
 			padding: $spacing6;
-			@include media(xsm) {
-				padding-inline: $spacing2;
-			}
+
 			a {
 				color: $base-color;
 			}

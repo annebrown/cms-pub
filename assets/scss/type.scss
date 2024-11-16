@@ -17,9 +17,9 @@ h3, .h3 {
 
 h1, .h1 {
 	font-size: $font-size1;
-	@include media(xsm) {
-		font-size: $font-size2;
-	}
+	// @include media(xsm) {
+	// 	font-size: $font-size2;
+	// }
 	position: relative;
 	&:before {
 		position: absolute;
@@ -34,9 +34,9 @@ h1, .h1 {
 
 h2, .h2 {
 	font-size: $font-size2;
-	@include media(xsm) {
-		font-size: $font-size3;
-	}
+	// @include media(xsm) {
+	// 	font-size: $font-size3;
+	// }
 }
 
 h3, .h3 {

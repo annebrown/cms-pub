@@ -22,12 +22,12 @@
 				opacity: 1;
 			}
 		}
-		@include media(xsm) {
-			display: block;
-			height: auto;
-			margin-top: $spacing2;
-			margin-inline: 0;
-		}
+		// @include media(xsm) {
+		// 	display: block;
+		// 	height: auto;
+		// 	margin-top: $spacing2;
+		// 	margin-inline: 0;
+		// }
 	}
 
 	#__by-sailsnake {

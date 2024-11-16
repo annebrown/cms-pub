@@ -45,9 +45,9 @@ watch(
 <style lang="scss" scoped>
 nav {
 	display: grid;
-	@include media(xsm) {
-		padding-top: 8em; // pushes item below 'header' (toggle-button span:before)
-	}
+	// @include media(xsm) {
+	// 	padding-top: 8em; // pushes item below 'header' (toggle-button span:before)
+	// }
 }
 
 
@@ -59,20 +59,20 @@ nav {
 	margin: 0;
 	padding: 0;
 
-	@include media(xsm) {
-		position: relative;
-		display: block;
-		height: 100%;
-		margin: 0;
-		padding-left: 0;
-	}
+	// @include media(xsm) {
+	// 	position: relative;
+	// 	display: block;
+	// 	height: 100%;
+	// 	margin: 0;
+	// 	padding-left: 0;
+	// }
 
 	span {
 		padding: $spacing2;
 		width: 8em;
-		@include media(xsm) {
-			width: auto;
-		}
+		// @include media(xsm) {
+		// 	width: auto;
+		// }
 	}
 
 	.menu-item {
@@ -84,11 +84,11 @@ nav {
 			transition: $transition1;
 		}
 
-		@include media(xsm) {
-			&.router-link-active {
-				outline: 0.3em solid var(--hover-background-color);
-			}
-		}
+		// @include media(xsm) {
+		// 	&.router-link-active {
+		// 		outline: 0.3em solid var(--hover-background-color);
+		// 	}
+		// }
 	}
 }
 
@@ -96,12 +96,12 @@ nav {
 // toggle states/ mobile
 
 nav {
-	@include media(xsm) {
-		display: none;
-		menu {
-			display: block !important;
-		}
-	}
+	// @include media(xsm) {
+	// 	display: none;
+	// 	menu {
+	// 		display: block !important;
+	// 	}
+	// }
 }
 
 nav.mobileMenuOpen {
@@ -126,19 +126,19 @@ nav.mobileMenuOpen {
 #mobile-menu__toggle-button {
 	display: none;
 	cursor: pointer;
-	@include media(xsm) {
-		position: absolute;
-		z-index: 99;
-		display: block;
-		font-size: 0.8em;
-		text-align: center;
-		width: max-content;
-		margin-inline: auto;
-		justify-self: center;
-		padding: $spacing1;
-		margin-top: $spacing0;
-		right: 0;
-	}
+	// @include media(xsm) {
+	// 	position: absolute;
+	// 	z-index: 99;
+	// 	display: block;
+	// 	font-size: 0.8em;
+	// 	text-align: center;
+	// 	width: max-content;
+	// 	margin-inline: auto;
+	// 	justify-self: center;
+	// 	padding: $spacing1;
+	// 	margin-top: $spacing0;
+	// 	right: 0;
+	// }
 	span {
 		font-size: $font-size2;
 		display: block;
@@ -154,11 +154,11 @@ nav.mobileMenuOpen {
 }
 
 #main-menu {
-	@include media(xsm) {
-		position: absolute;
-		z-index: 99;
-		top: 0;
-		right: 0;
-	}
+// 	@include media(xsm) {
+// 		position: absolute;
+// 		z-index: 99;
+// 		top: 0;
+// 		right: 0;
+// 	}
 }
 </style>
